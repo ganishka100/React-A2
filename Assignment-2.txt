@@ -1,0 +1,116 @@
+Q1. What is Single Page Application(SPA) ?
+
+Ans1. SPA stands for Single Page Application.It is a type of web application that loads a
+ single HTML page and updates its content dynamically, with interactive user experience.
+ React is used to build SPAs due to its component-based architecture and efficient
+rendering through the use of the Virtual DOM. 
+
+Key characteristics of SPAs are :-
+
+1. Single HTML Page:  SPAs load a single HTML page, subsequent updates to the content are
+ handled dynamically without requiring full page reloads. 
+
+2. Dynamic Updates: React allows developers to create interactive user interfaces where
+ changes to the application state and updates to specific components. These updates 
+ are efficiently managed through the Virtual DOM, resulting in faster and more responsive
+user experiences. 
+
+3. Component-Based Architecture: React's component-based architecture ensures modularity
+ and reusability. Different parts of the application are within components,making it easier
+to manage and maintain code.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q2. What is DNS and IP Address?
+
+Ans2. DNS (Domain Name System): DNS is a hierarchical and distributed system that translates
+human-readable domain names (like www.example.com) into IP addresses. When you enter a 
+domain name into your web browser, the browser needs to find the corresponding IP address
+to establish a connection with the server hosting the website.
+
+IP Address (Internet Protocol Address): An IP address is a numerical label assigned to each
+ device connected to a computer network that uses the Internet Protocol for communication.
+There are two types of IP addresses: IPv4 (e.g., 192.168.0.1) and IPv6 
+(e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). IPv4 is more commonly used, but IPv6 is 
+becoming increasingly important as IPv4 addresses run out.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q3. What is React and why we use React instead of JS?
+
+Ans3. React is a JavaScript library for building user interfaces, particularly for building
+ single-page applications where the content updates dynamically without requiring a full 
+ page reload. Here are some key aspects of React and reasons why it's commonly used in web
+development:
+
+1. Declarative Syntax
+2. Component-Based Architecture
+3. Virtual DOM
+4. One-Way Data Binding
+5. JSX (JavaScript XML)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q4. What is JSX and why do we use it instead of js ?
+
+Ans 4. JSX, or JavaScript XML, is a syntax extension for JavaScript. It is commonly associated
+with React, a JavaScript library for building user interfaces. JSX allows you to write
+HTML-like code within JavaScript, making it easier to describe the structure of UI 
+components.This helps in combining UI markup and logic in a single file, making the code
+ more readable and maintainable.While JSX is a common and convenient way to write React 
+ components, it's not mandatory. React can also be written using pure JavaScript without
+  JSX. However, JSX is widely adopted in the React community due to its readability and
+   ease of use.JSX syntax will feel natural. It looks similar to XML/HTML, but it gets 
+transformed into JavaScript.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q5. What is package.json ?
+
+Ans 5. package.json is a configuration file used in Node.js and many JavaScript projects,
+including React applications. It is typically located at the root of a project's directory
+and contains metadata about the project.  It plays a crucial role in managing and
+building modern JavaScript projects.One of the most important aspects of package.json 
+for a React project is the definition of dependencies. These dependencies are the
+external libraries and packages that your project are on. Dependencies are the packages
+ required for the application to run in a production environment. 
+
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ Q6. What is the difference between react and react native ? Which one is library or 
+    framework ?
+
+Ans 6. React and React Native are both developed by Facebook and are used for building user
+ interfaces, but they serve different purposes and are used in different contexts.React is
+  a JavaScript library.  React is used for building user interfaces for web
+   applications. It is designed to create interactive and dynamic UIs that efficiently
+update in response to data changes. 
+React Native is a framework. React Native is used for building mobile applications for iOS
+ and Android. It allows developers to use React components to build a mobile UI that is
+  native to the platform.React Native uses components to build UI elements. However, these
+   components are different from web-based React components, as they are specifically
+    designed for mobile platforms. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q7. What is the difference between Class and Functional Component ?
+
+Ans 7. Class Component : In React, a Class Component is a JavaScript class that extends the
+ React.Component base class. Class components are the traditional way of creating component
+ s in React, and they have been used since the early versions of the library. Class
+  components are ES6 classes that encapsulate a component's logic and behavior. 
+
+ Functional Component : Functional components in React are a simpler and more concise way
+to define components compared to class components. They are JavaScript functions that
+take props as an argument and return React elements, describing what should be rendered
+on the screen. Functional components were initially stateless and didn't have access to
+lifecycle methods, but with the introduction of Hooks in React 16.8, functional
+components can now manage state and use lifecycle methods, making them powerful and
+flexible. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q8. What is DOM in JS?
+
+Ans8. The DOM, or Document Object Model, is a programming interface for web documents. It
+ represents the structure of a document as a tree of objects, where each object corresponds
+to a part of the document, such as elements, attributes, text, etc. The DOM provides a 
+way for programs (such as JavaScript) to manipulate the structure, style, and content of
+web documents dynamically.
+
+
